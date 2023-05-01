@@ -1,4 +1,5 @@
-from market import app, db
+from market import app
+from market import db 
 app.app_context().push
 db.create_all()
 from flask import render_template, redirect, url_for, flash, request
