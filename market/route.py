@@ -4,6 +4,7 @@ from market.model import Item, User
 from market.forms import RegisterForm, LoginForm, PurchaseItemForm, SellItemForm
 from flask_login import login_user, logout_user, login_required, current_user
 
+
 # Play ground
 
 def print_g(*args):
