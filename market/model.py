@@ -1,7 +1,6 @@
 from market import bcrypt
 from flask_login import UserMixin
-from market import login_manager
-from market import db
+from market import login_manager,db
 
 @login_manager.user_loader
 def load_user(user_id):
