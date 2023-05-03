@@ -1,3 +1,3 @@
-from market import app
+from market import app,db
 if __name__ == "__main__":
-    app.run(debug=True)
+        app.run(debug=True)
