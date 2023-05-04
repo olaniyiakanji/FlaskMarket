@@ -5,7 +5,7 @@ from market.forms import RegisterForm, LoginForm, PurchaseItemForm, SellItemForm
 from flask_login import login_user, logout_user, login_required, current_user
 
 
-# Play ground
+'''# Play ground
 
 def print_g(*args):
     result = ""
@@ -34,7 +34,7 @@ def return_ownerless_items():
         if not owner:
             Item.query.filter_by(id=item.id).delete()
             db.session.commit()
-    return Item.query.filter_by().all()
+    return Item.query.filter_by().all()'''
 
 @app.route('/')
 @app.route('/home')
